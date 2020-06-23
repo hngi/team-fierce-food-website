@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/reservation.css" />
+    <title>Reservation</title>
+  </head>
+  <body div class="p-3 mb-2 text-white bg-img">
+    <main>
+      <div
+        class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-dark border-bottom box-shadow"
+      >
+        <h5 class="my-0 mr-md-auto font-weight-normal text-white"></h5>
+        <nav class="my-2 my-md-0 mr-md-3 small">
+          <a class="p-2 text-selected" href="#">home</a>
+          <a class="p-2 text-white" href="#">menus</a>
+          <a class="p-2 text-white" href="#">reservations</a>
+          <a class="p-2 text-white" href="contact-page.html">contact</a>
+        </nav>
+      </div>
+      <section class="section.reservation bg-img">
+        <div class="container">
+          <h2 class="text-center display-3 text-warning">Reservation</h2>
+        </div>
+        <!-- <div class="stepper">
+          <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+          </ul>
+        </div> -->
+        <table class="table table-bg">
+          <thead>
+            <tr>
+              <th scope="col">Product</th>
+              <th scope="col">Price</th>
+              <th scope="col">Quantity</th>
+              <th scope="col">Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td scope="row">
+                <img
+                  src="img/ch9.jpeg"
+                  alt="pounded yam"
+                  class="img-fluid img"
+                />
+                YAM <br />
+                + EGUSI SOUP
+              </td>
+              <td>500.00</td>
+              <td>1 +</td>
+              <td>500.00</td>
+            </tr>
+            <tr>
+              <td scope="row">
+                <img src="img/ch3.jpeg" alt="steak" class="img-fluid img" />
+                STEAK <br />
+                + SPICY STIRFRY
+              </td>
+              <td>500.00</td>
+              <td>1 +</td>
+              <td>500.00</td>
+            </tr>
+            <tr>
+              <td scope="row">
+                <img
+                  src="img/ch12.jpeg"
+                  alt="SPAGHETTI"
+                  class="img-fluid img"
+                />
+                SPAGHETTI <br />
+                + MEAT BALLS
+              </td>
+              <td>500.00</td>
+              <td>1 +</td>
+              <td>500.00</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!-- <div class="container"> </div> -->
+        <div class="row">
+          <div class="col-lg-6">
+            <form class="form-inline">
+              <div class="form-group mr-sm-3 mb-2 btns">
+                <label for="coupon" class="sr-only">Coupon Code</label>
+                <input
+                  type="password"
+                  class="form-control btns"
+                  id="coupon"
+                  placeholder="Coupon Code"
+                />
+              </div>
+              <button
+                type="submit"
+                class="btn btn-primary mb-2 bg-warning text-white btns"
+              >
+                Apply Coupon
+              </button>
+            </form>
+          </div>
+
+          <div class="col-lg-6">
+            <table class="table table-bg">
+              <!-- <thead>
+                      <tr>
+                        <th scope="col ">Cart Details</th>
+                      </tr>
+                    </thead> -->
+
+              <h3>Cart Details</h3>
+              <tbody>
+                <tr>
+                  <td scope="row">Sub Total</td>
+                  <td>1500</td>
+                </tr>
+                <tr>
+                  <td scope="row">Shipping</td>
+                  <td>300</td>
+                </tr>
+                <tr>
+                  <td scope="row">Total</td>
+                  <td>1200</td>
+                </tr>
+              </tbody>
+            </table>
+            <form class="form">
+              <button
+                type="submit"
+                class="btn btn-primary mb-2 btns bg-warning text-white"
+              >
+                Checkout
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
