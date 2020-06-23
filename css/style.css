@@ -1,0 +1,106 @@
+body {
+	background-color: #0C0C0C;
+}
+
+nav a {
+	color: #d39e00 !important;
+}
+.img-overlay {
+    position: relative;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	/*top: 73px;*/
+	background: rgba(26, 25, 25, 0.5);
+}
+
+.input-div-1 {
+	position: relative;
+	width:40%;
+	/*height: 35px;*/
+	left: 300px;
+	top: 30px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 35px;
+	color: #FFFFFF;
+	padding: 1rem;
+	background-color: transparent !important;
+}
+
+.custom-input {
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: transparent !important;
+    width: 50%;
+    font-size: 14px;
+    margin-left: 15%;
+    color: #ffffff;
+}
+
+.custom-input-button {
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 1rem;
+    /*background-color: transparent !important;*/
+    width: 30%;
+    margin-left: -40%;
+    /*height: 10%;*/
+}
+
+.mapouter { 
+	/*position:relative;*/
+	text-align:center;
+	height:500px;
+	width:100%;
+	padding-left: 30%;
+	padding-right: 30%;
+
+}
+.gmap_canvas {
+	overflow:hidden;
+	background:none!important;
+	height:500px;
+	width:100%;
+}
+.footer {
+    width: 100%;
+    background-color: #d07d03;
+    padding: 1rem;
+}
+
+.custom-card-wrapper {
+	background-color: #2b2b2b;
+	width: 100%;
+	margin: 0px;
+	min-height: 500px;
+	/*width: 50%;*/
+}
+
+.custom-card-item {
+	background-color: #606060;
+	border-radius: 5px;
+	min-height: 100px;
+	padding: 1rem;
+	/*width: 50%;*/
+}
+
+
+@media only screen and (max-width: 768px) {
+	body {
+		width: 100%;
+	}
+
+	.mapouter {
+		width: 100%;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	.gmap_canvas {
+		width: 100%;
+		display: inline-block;
+	}
+}
